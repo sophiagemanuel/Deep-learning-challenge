@@ -9,13 +9,13 @@ The purpose of this analysis was to develop a deep learning model to predict the
 ## Data Preprocessing
 - The target variable 'IS_SUCCESSFUL' indicates wether or not a charity application was succesful.
 - The feature variables include:
-  APPLICATION_TYPE
-  AFFILIATION
-  CLASSIFICATION
-  USE_CASE
-  ORGANIZATION
-  STATUS
-  INCOME_AMT
-  SPECIAL_CONSIDERATIONS
-  ASK_AMT
+  APPLICATION_TYPE,
+  AFFILIATION,
+  CLASSIFICATION,
+  USE_CASE,
+  ORGANIZATION,
+  STATUS,
+  INCOME_AMT,
+  SPECIAL_CONSIDERATIONS,
+  ASK_AMT.
 - Removing 'EIN' and 'NAME' columns from input data as they are neither targets nor features.
